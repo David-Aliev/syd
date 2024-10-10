@@ -1,0 +1,26 @@
+.admin_page_inner {
+}
+
+.admin_page_btn {
+  padding: 10px 15px;
+  border: 4px solid rgb(199, 196, 196);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.admin_page_btn:hover {
+  background-color: black;
+  color: white;
+  transition: 0.2s;
+}
+
+.admin_page_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 100vh;
+}

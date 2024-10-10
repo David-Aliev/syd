@@ -1,0 +1,31 @@
+.log_in_form {
+  position: fixed;
+  padding: 25px;
+  width: 100%; /* Розтягується на всю ширину */
+  height: 100%; /* Розтягується на всю висоту */
+  max-width: 800px; /* Максимальна ширина */
+  max-height: 60vh; /* Максимальна висота */
+  border: 2px solid rgb(199, 196, 196);
+}
+
+.login_form_overlay {
+  display: flex;
+  justify-content: center; /* Горизонтальне центрування */
+  align-items: center; /* Вертикальне центрування */
+  height: 100vh;
+}
+
+.typography_login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+
+  margin-top: 30px;
+}
+
+.login_btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
